@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jack_mixer geometry="943x1032" paned_position="481" visible="True">
+<jack_mixer geometry="943x1032" paned_position="483" visible="True">
 	<input_channel name="Chat In" type="stereo" direct_output="False" volume="-1.501392" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="11" balance_midi_cc="12" mute_midi_cc="13" solo_midi_cc="14"/>
 	<input_channel name="System" type="stereo" direct_output="False" volume="-17.756773" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="21" balance_midi_cc="22" mute_midi_cc="23" solo_midi_cc="24"/>
 	<input_channel name="Game" type="stereo" direct_output="False" volume="-3.954498" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="25" balance_midi_cc="26" mute_midi_cc="27" solo_midi_cc="28"/>
@@ -8,5 +8,6 @@
 	<output_channel name="Audio" type="stereo" muted_channels="Chat In|Mic In" color="rgb(39,136,3)" volume="-6.844889" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="15" balance_midi_cc="16" mute_midi_cc="17"/>
 	<output_channel name="Mic Out" type="stereo" muted_channels="Chat In|System|Game|Music" color="rgb(251,116,89)" volume="-2.725423" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="18" balance_midi_cc="19" mute_midi_cc="20"/>
 	<output_channel name="Chat Out" type="stereo" muted_channels="System|Game|Mic In|Music" color="rgb(70,19,227)" volume="1.882053" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="33" balance_midi_cc="34" mute_midi_cc="35"/>
+	<output_channel name="Music Out" type="stereo" color="rgb(174,159,19)" volume="-inf" balance="0.000000" wide="True" meter_prefader="False" out_mute="False" volume_midi_cc="40" balance_midi_cc="41" mute_midi_cc="42"/>
 	<gui_factory confirm-quit="False" default_meter_scale="K20" default_project_path="" default_slider_scale="linear_30dB" midi_behavior_mode="0" use_custom_widgets="False" vumeter_color="#ccb300" vumeter_color_scheme="default" auto_reset_peak_meters="False" auto_reset_peak_meters_time_seconds="2.0" meter_refresh_period_milliseconds="33"/>
 </jack_mixer>

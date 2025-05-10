@@ -57,9 +57,13 @@ button:hover {
 }
 
 #workspaces button.active {
-  color: @color-primary;
+  color: @color-success;
   font-weight: bold;
   border-radius: 6px;
+}
+
+#workspaces button.visible:not(.active) {
+  color: @color-primary;
 }
 
 #workspaces button.focused {
@@ -71,7 +75,7 @@ button:hover {
   color: @color-white;
 }
 
-#workspaces button.empty {
+#workspaces button.empty:not(.active) {
   color: @color-disabled;
 }
 

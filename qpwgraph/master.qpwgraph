@@ -1,97 +1,9 @@
 <!DOCTYPE patchbay>
-<patchbay name="master" version="0.9.0">
+<patchbay name="master" version="0.9.2">
  <items>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Zen" port="Zen:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Music R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Music Out R"/>
-   <input node="TU104 HD Audio Controller Digital Stereo (HDMI)" port="DELL S3220DGF:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio R"/>
-   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
-   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat L"/>
-   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Google Chrome-1" port="Google Chrome:output_MONO"/>
+   <output node="Chromium" port="Chromium:output_MONO"/>
    <input node="jack_mixer" port="jack_mixer:System L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:System Out L"/>
-   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
-   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Comms L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:System Out R"/>
-   <input node="discord_capture-1" port="discord_capture:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:System Out L"/>
-   <input node="discord_capture-1" port="discord_capture:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Zen" port="Zen:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Music L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:capture_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Mic"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio L"/>
-   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Music Out L"/>
-   <input node="TU104 HD Audio Controller Digital Stereo (HDMI)" port="DELL S3220DGF:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic In Out R"/>
-   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat In Out R"/>
-   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
-   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:capture_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Mic In L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic In Out L"/>
-   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Comms R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Mic In Out"/>
@@ -102,16 +14,24 @@
    <input node="jack_mixer" port="jack_mixer:Mic In"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat R"/>
-   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Comms R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
-   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+   <output node="jack_mixer" port="jack_mixer:Mic In Out L"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat In Out L"/>
-   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+   <output node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:capture_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Mic In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Google Chrome-1" port="Google Chrome:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:System R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:System Out R"/>
@@ -122,12 +42,104 @@
    <input node="jack_mixer" port="jack_mixer:Mic In R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat In Out L"/>
+   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat R"/>
+   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
+   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:System Out L"/>
+   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat L"/>
+   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Google Chrome-1" port="Google Chrome:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:System L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio R"/>
+   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Music Out R"/>
+   <input node="TU104 HD Audio Controller Digital Stereo (HDMI)" port="DELL S3220DGF:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Music R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat In Out R"/>
+   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_MONO"/>
    <input node="jack_mixer" port="jack_mixer:System R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out"/>
+   <output node="jack_mixer" port="jack_mixer:Mic In Out R"/>
    <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Music Out L"/>
+   <input node="TU104 HD Audio Controller Digital Stereo (HDMI)" port="DELL S3220DGF:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio L"/>
+   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:capture_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Mic"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:System Out L"/>
+   <input node="discord_capture-1" port="discord_capture:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Music L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Comms L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:System Out R"/>
+   <input node="discord_capture-1" port="discord_capture:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
+   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-1" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:System L"/>
   </item>
  </items>
 </patchbay>

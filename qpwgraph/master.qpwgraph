@@ -2,6 +2,10 @@
 <patchbay name="master" version="0.9.3">
  <items>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
+   <input node="Chromium input-1" port="Chromium input:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Chromium-2" port="Chromium:output_MONO"/>
    <input node="jack_mixer" port="jack_mixer:Chat In L"/>
   </item>
@@ -20,6 +24,10 @@
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:System Out L"/>
    <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-5" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Chromium-6" port="Chromium:output_MONO"/>
@@ -78,8 +86,20 @@
    <input node="jack_mixer" port="jack_mixer:System R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-8" port="Chromium:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Mic In Out R"/>
    <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-8" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-5" port="Chromium:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Chromium-1" port="Chromium:output_MONO"/>
@@ -88,6 +108,10 @@
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
    <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-8" port="Chromium:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Voice Detection" port="Voice Detection:capture_MONO"/>
@@ -130,12 +154,24 @@
    <input node="jack_mixer" port="jack_mixer:Comms R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-5" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Mic In Out L"/>
    <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Chromium-6" port="Chromium:output_MONO"/>
    <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-5" port="Chromium:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
+   <input node="Chromium input-1" port="Chromium input:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
@@ -166,12 +202,24 @@
    <input node="Chromium input" port="Chromium input:input_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-8" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:capture_MONO"/>
    <input node="Voice Detection" port="Voice Detection:input_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Chat In Out L"/>
    <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox Developer Edition" port="Firefox Developer Edition:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:System L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox Developer Edition" port="Firefox Developer Edition:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:System R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Chat R"/>

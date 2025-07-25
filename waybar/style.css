@@ -18,7 +18,7 @@
 @define-color color-background-transparent-25 rgba(50, 54, 65, 0.25);
 
 * {
-  font-family: FiraCode Nerd Font Mono, FontAwesome, Roboto, Helvetica, Arial,
+  font-family: JetBrainsMono Nerd Font, FontAwesome, Roboto, Helvetica, Arial,
     sans-serif;
   font-size: 14px;
   margin: 0;

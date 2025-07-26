@@ -29,6 +29,8 @@ window#waybar {
   background: @color-background-transparent-35;
   color: @color-foreground;
   transition: all 0.3s ease;
+  border-bottom: 1px solid @color-primary;
+  padding: 4px 8px;
 }
 
 window#waybar.hidden {
@@ -107,7 +109,7 @@ button:hover {
   margin: 0 4px;
   border-radius: 6px;
   transition: all 0.3s ease;
-  background: @color-background;
+  background: @background-transparent-65;
   color: @color-foreground;
 }
 
@@ -183,7 +185,8 @@ button:hover {
 }
 
 #tray {
-  background: @color-background;
+  background: @background-transparent-65;
+  border-radius: 6px;
 }
 
 #tray > .needs-attention {
@@ -191,11 +194,11 @@ button:hover {
 }
 
 #idle_inhibitor {
-  background: @color-background;
+  color: @color-muted-foreground;
 }
 
 #idle_inhibitor.activated {
-  background: @color-primary;
+  color: @color-success;
 }
 
 #mpd {
@@ -235,4 +238,8 @@ button:hover {
 
 #privacy-item.audio-out {
   background: @color-primary;
+}
+
+#custom-power {
+  margin-right:8px;
 }

@@ -56,3 +56,4 @@ SPACESHIP_PROMPT_ORDER=(
   sudo           # Sudo indicator
   char           # Prompt character
 )
+SPACESHIP_PROMPT_PREFIXES_SHOW=false

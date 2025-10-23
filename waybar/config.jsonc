@@ -1,6 +1,5 @@
 // -*- mode: jsonc -*-
 {
-  "include": ["./modules.jsonc"],
   // "layer": "top", // Waybar at top layer
   // "position": "bottom", // Waybar position (top|bottom|left|right)
   // "width": 1280, // Waybar width
@@ -24,8 +23,8 @@
     "on-scroll-up": "hyprctl dispatch workspace e+1",
     "on-scroll-down": "hyprctl dispatch workspace e-1",
     "persistent-workspaces": {
-      "DP-1": [1, 2, 3, 4, 10],
-      "HDMI-A-1": [5, 6, 7, 8, 9]
+      "DP-3": [1, 2, 3, 4, 10],
+      "DP-1": [5, 6, 7, 8, 9]
     },
     "format-icons": {
       "1": "",
@@ -110,8 +109,6 @@
     },
     "actions": {
       "on-click-right": "mode",
-      "on-scroll-up": "tz_up",
-      "on-scroll-down": "tz_down",
       "on-scroll-up": "shift_up",
       "on-scroll-down": "shift_down"
     }

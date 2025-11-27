@@ -27,3 +27,4 @@ application/xhtml+xml=firefox-developer-edition.desktop;
 application/x-extension-xhtml=firefox-developer-edition.desktop;
 application/x-extension-xht=firefox-developer-edition.desktop;
 application/x-compressed-tar=com.mitchellh.ghostty.desktop;
+image/png=feh.desktop;

@@ -13,6 +13,7 @@ application/xhtml+xml=firefox-developer-edition.desktop
 application/x-extension-xhtml=firefox-developer-edition.desktop
 application/x-extension-xht=firefox-developer-edition.desktop
 application/x-compressed-tar=com.mitchellh.ghostty.desktop
+video/vnd.avi=feh.desktop
 
 [Added Associations]
 text/x-log=code.desktop;
@@ -28,3 +29,4 @@ application/x-extension-xhtml=firefox-developer-edition.desktop;
 application/x-extension-xht=firefox-developer-edition.desktop;
 application/x-compressed-tar=com.mitchellh.ghostty.desktop;
 image/png=feh.desktop;
+video/vnd.avi=feh.desktop;

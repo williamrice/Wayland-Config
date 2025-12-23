@@ -1,0 +1,13 @@
+[Show]
+CreateK3bAudioProject=true
+CreateK3bDataProject=true
+CreateK3bVcdProject=true
+RunGhosttyDir=true
+WriteCdImage=true
+compressfileitemaction=true
+extractfileitemaction=true
+forgetfileitemaction=true
+kactivitymanagerd_fileitem_linking_plugin=true
+movetonewfolderitemaction=true
+setfoldericonitemaction=true
+tagsfileitemaction=true

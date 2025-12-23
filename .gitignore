@@ -24,3 +24,13 @@ Thunar/accels.scm
 emaildefaults
 k3brc
 zap/
+GIMP/3.0
+unity3d/Fishing Planet LLC/FishingPlanet
+
+# Sensitive files - authentication tokens, cookies, sessions
+pulse/
+postgres-sync/
+Postman/
+session/
+qt5ct/
+qt6ct/

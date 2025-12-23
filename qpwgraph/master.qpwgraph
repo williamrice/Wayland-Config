@@ -142,6 +142,10 @@
    <input node="jack_mixer" port="jack_mixer:Game R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Fallout 76" port="Fallout 76:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:System Out R"/>
    <input node="discord_capture-1" port="discord_capture:input_MONO"/>
   </item>
@@ -312,6 +316,10 @@
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Dune: Awakening" port="Dune: Awakening:output_FR"/>
    <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Fallout 76-1" port="Fallout 76:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Chromium-1" port="Chromium:output_MONO"/>
@@ -494,6 +502,10 @@
    <input node="TU104 HD Audio Controller Digital Stereo (HDMI)" port="DELL S3220DGF:playback_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Fallout 76-1" port="Fallout 76:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Terraria.bin.x86_64" port="Terraria.bin.x86_64:output_FR"/>
    <input node="jack_mixer" port="jack_mixer:Game R"/>
   </item>
@@ -616,6 +628,10 @@
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Dune: Awakening-2" port="Dune: Awakening:output_FL"/>
    <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Fallout 76" port="Fallout 76:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Dune: Awakening-1" port="Dune: Awakening:output_FL"/>

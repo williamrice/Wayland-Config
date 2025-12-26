@@ -2,290 +2,6 @@
 <patchbay name="master" version="0.9.7">
  <items>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
-   <input node="Beats Solo 4" port="Beats Solo 4:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="NoiseTorch Microphone for Audio Adapter (Unitek Y-247A) Source" port="NoiseTorch Microphone for Audio Adapter (Unitek Y-247A) Source:capture_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Mic In R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:System Out L"/>
-   <input node="discord_capture-1" port="discord_capture:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Zen" port="Zen:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Music L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio L"/>
-   <input node="Wingman" port="Wingman:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
-   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
-   <input node="Chromium input" port="Chromium input:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium" port="Chromium:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Tom Clancy's The Division 2" port="Tom Clancy's The Division 2:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
-   <input node="Billy’s AirPods Pro" port="Billy’s AirPods Pro:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
-   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="CotWTheAngler_Steam.exe" port="CotWTheAngler_Steam.exe:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Audio Adapter (Unitek Y-247A) Mono" port="USB Audio Device:capture_MONO"/>
-   <input node="NoiseTorch Microphone for Audio Adapter (Unitek Y-247A) Source" port="NoiseTorch Microphone for Audio Adapter (Unitek Y-247A) Source:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="NoiseTorch Microphone for Audio Adapter (Unitek Y-247A) Source" port="NoiseTorch Microphone for Audio Adapter (Unitek Y-247A) Source:capture_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Mic In L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out"/>
-   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium" port="Chromium:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:System L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Tom Clancy's The Division 2" port="Tom Clancy's The Division 2:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Game R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat R"/>
-   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:capture_MONO"/>
-   <input node="Voice Detection" port="Voice Detection:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium" port="Chromium:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:System R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Terraria.bin.x86_64" port="Terraria.bin.x86_64:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium" port="Chromium:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Dune: Awakening" port="Dune: Awakening:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
-   <input node="Billy’s AirPods Pro" port="Billy’s AirPods Pro:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Terraria.bin.x86_64-1" port="Terraria.bin.x86_64:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
-   <input node="Beats Solo 4" port="Beats Solo 4:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Terraria.bin.x86_64-1" port="Terraria.bin.x86_64:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Game R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-8" port="Chromium:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat In Out R"/>
-   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
-   <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
-   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Dune: Awakening-1" port="Dune: Awakening:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium" port="Chromium:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:capture_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Mic"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="CotWTheAngler_Steam.exe" port="CotWTheAngler_Steam.exe:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Game R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Fallout 76" port="Fallout 76:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:System Out R"/>
-   <input node="discord_capture-1" port="discord_capture:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="FMOD Ex App" port="FMOD Ex App:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Game R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:System Out L"/>
-   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Google Chrome" port="Google Chrome:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:System R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio R"/>
-   <input node="Billy’s AirPods Pro-1" port="Billy’s AirPods Pro:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
-   <input node="Chromium input-1" port="Chromium input:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat L"/>
-   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="FactoryGameSteam-1" port="FactoryGameSteam:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:System L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
-   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Firefox Developer Edition" port="Firefox Developer Edition:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:System R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio L"/>
-   <input node="Otium audio" port="Otium audio:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-6" port="Chromium:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Zen" port="Zen:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Music R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Tom Clancy's The Division 2-1" port="Tom Clancy's The Division 2:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-1" port="Chromium:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
-   <input node="Billy’s AirPods Pro - Find My" port="Billy’s AirPods Pro - Find My:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Google Chrome-1" port="Google Chrome:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:System R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Mumble/Playback" port="Playback:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
-   <input node="Chromium input" port="Chromium input:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:System Out R"/>
-   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
-   <input node="Billy’s AirPods Pro-1" port="Billy’s AirPods Pro:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
-   <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Dune: Awakening-2" port="Dune: Awakening:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Game R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio R"/>
-   <input node="Wingman" port="Wingman:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Mumble/Playback" port="Playback:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Ranch Simulator" port="Ranch Simulator:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
-   <input node="Chromium input-1" port="Chromium input:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
-   <input node="RoadCraft" port="RoadCraft:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-6" port="Chromium:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio L"/>
-   <input node="Billy’s AirPods Pro-1" port="Billy’s AirPods Pro:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Red Dead Redemption 2" port="Red Dead Redemption 2:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="DGM20 USB Microphone Analog Stereo" port="DGM20 USB Microphone:capture_FL"/>
-   <input node="Voice Detection" port="Voice Detection:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-8" port="Chromium:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio L"/>
-   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
-   <input node="Firefox Developer Edition" port="Firefox Developer Edition:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Voice Detection" port="Voice Detection:capture_MONO"/>
    <input node="jack_mixer" port="jack_mixer:Mic In L"/>
   </item>
@@ -302,16 +18,16 @@
    <input node="jack_mixer" port="jack_mixer:Chat In R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio L"/>
+   <input node="Billy’s AirPods Pro" port="Billy’s AirPods Pro:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Chromium-5" port="Chromium:output_FL"/>
    <input node="jack_mixer" port="jack_mixer:Chat In L"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Audio L"/>
    <input node="Beats Solo 4" port="Beats Solo 4:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio L"/>
-   <input node="Billy’s AirPods Pro" port="Billy’s AirPods Pro:playback_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Dune: Awakening" port="Dune: Awakening:output_FR"/>
@@ -330,16 +46,48 @@
    <input node="Mumble/Capture" port="Capture:input_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Voice Detection" port="Voice Detection:capture_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Mic In R"/>
+   <output node="Chromium-8" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
+   <input node="Firefox Developer Edition" port="Firefox Developer Edition:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio L"/>
+   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
+   <input node="Billy’s AirPods Pro" port="Billy’s AirPods Pro:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox Developer Edition-1" port="Firefox Developer Edition:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Music Out R"/>
+   <input node="TU104 HD Audio Controller Digital Stereo (HDMI)" port="DELL S3220DGF:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio R"/>
+   <input node="Beats Solo 4" port="Beats Solo 4:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Google Chrome" port="Google Chrome:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:System L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="RoadCraft-1" port="RoadCraft:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
    <input node="Dune: Awakening" port="Dune: Awakening:input_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-5" port="Chromium:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+   <output node="Voice Detection" port="Voice Detection:capture_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Mic In R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="RoadCraft" port="RoadCraft:output_FL"/>
@@ -350,72 +98,20 @@
    <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-5" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Audio R"/>
    <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Firefox Developer Edition-1" port="Firefox Developer Edition:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
-   <input node="Billy’s AirPods Pro" port="Billy’s AirPods Pro:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Music Out R"/>
-   <input node="TU104 HD Audio Controller Digital Stereo (HDMI)" port="DELL S3220DGF:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Google Chrome" port="Google Chrome:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:System L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio R"/>
-   <input node="Beats Solo 4" port="Beats Solo 4:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="RoadCraft-1" port="RoadCraft:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="RoadCraft" port="RoadCraft:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Game R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
-   <input node="Beats Solo 4" port="Beats Solo 4:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Red Dead Redemption 2" port="Red Dead Redemption 2:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Game R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="FMOD Ex App" port="FMOD Ex App:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-8" port="Chromium:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio R"/>
-   <input node="Billy’s AirPods Pro" port="Billy’s AirPods Pro:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="FactoryGameSteam" port="FactoryGameSteam:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:System R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-2" port="Chromium:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Audio L"/>
    <input node="Billy’s AirPods Pro" port="Billy’s AirPods Pro:playback_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
-   <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_FR"/>
+   <output node="Chromium-2" port="Chromium:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Chat In Out L"/>
@@ -426,8 +122,68 @@
    <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
+   <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Chromium-1" port="Chromium:output_MONO"/>
    <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
+   <input node="Beats Solo 4" port="Beats Solo 4:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="RoadCraft" port="RoadCraft:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-8" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Red Dead Redemption 2" port="Red Dead Redemption 2:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="FMOD Ex App" port="FMOD Ex App:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio R"/>
+   <input node="Billy’s AirPods Pro" port="Billy’s AirPods Pro:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="FactoryGameSteam" port="FactoryGameSteam:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:System R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox Developer Edition-1" port="Firefox Developer Edition:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="FactoryGameSteam" port="FactoryGameSteam:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:System L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Ranch Simulator" port="Ranch Simulator:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
+   <input node="Chromium input" port="Chromium input:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="DGM20 USB Microphone Analog Stereo" port="DGM20 USB Microphone:capture_FR"/>
+   <input node="Voice Detection" port="Voice Detection:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-5" port="Chromium:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
+   <input node="RoadCraft" port="RoadCraft:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Chromium-5" port="Chromium:output_MONO"/>
@@ -450,66 +206,6 @@
    <input node="Beats Solo 4" port="Beats Solo 4:playback_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="FactoryGameSteam" port="FactoryGameSteam:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:System L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Ranch Simulator" port="Ranch Simulator:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Game R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Firefox Developer Edition-1" port="Firefox Developer Edition:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
-   <input node="Chromium input" port="Chromium input:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="DGM20 USB Microphone Analog Stereo" port="DGM20 USB Microphone:capture_FR"/>
-   <input node="Voice Detection" port="Voice Detection:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-5" port="Chromium:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
-   <input node="RoadCraft" port="RoadCraft:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
-   <input node="Billy’s AirPods Pro - Find My" port="Billy’s AirPods Pro - Find My:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic In Out R"/>
-   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="FactoryGameSteam-1" port="FactoryGameSteam:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:System R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
-   <input node="Billy’s AirPods Pro - Find My" port="Billy’s AirPods Pro - Find My:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Music Out L"/>
-   <input node="TU104 HD Audio Controller Digital Stereo (HDMI)" port="DELL S3220DGF:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Fallout 76-1" port="Fallout 76:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Game R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Terraria.bin.x86_64" port="Terraria.bin.x86_64:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Game R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
    <input node="Dune: Awakening" port="Dune: Awakening:input_MONO"/>
   </item>
@@ -526,8 +222,80 @@
    <input node="Billy’s AirPods Pro-1" port="Billy’s AirPods Pro:playback_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Pal" port="Pal:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Unreal Engine" port="Unreal Engine:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Chromium-8" port="Chromium:output_FR"/>
    <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
+   <input node="Billy’s AirPods Pro - Find My" port="Billy’s AirPods Pro - Find My:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic In Out R"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Music Out L"/>
+   <input node="TU104 HD Audio Controller Digital Stereo (HDMI)" port="DELL S3220DGF:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Fallout 76-1" port="Fallout 76:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="FactoryGameSteam-1" port="FactoryGameSteam:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:System R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
+   <input node="Billy’s AirPods Pro - Find My" port="Billy’s AirPods Pro - Find My:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Terraria.bin.x86_64" port="Terraria.bin.x86_64:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio R"/>
+   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Google Chrome-1" port="Google Chrome:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:System L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-2" port="Chromium:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-3" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio R"/>
+   <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio L"/>
+   <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
+   <input node="Firefox Developer Edition" port="Firefox Developer Edition:input_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Audio R"/>
@@ -536,6 +304,10 @@
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Chromium-2" port="Chromium:output_MONO"/>
    <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
+   <input node="Mumble/Capture" port="Capture:input_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Audio L"/>
@@ -548,58 +320,6 @@
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
    <input node="Beats Solo 4" port="Beats Solo 4:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
-   <input node="Mumble/Capture" port="Capture:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Google Chrome-1" port="Google Chrome:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:System L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-2" port="Chromium:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio R"/>
-   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-3" port="Chromium:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio R"/>
-   <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio L"/>
-   <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
-   <input node="Firefox Developer Edition" port="Firefox Developer Edition:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
-   <input node="Billy’s AirPods Pro - Find My" port="Billy’s AirPods Pro - Find My:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Google Chrome-1" port="Google Chrome:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:System R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
-   <input node="Chromium input" port="Chromium input:input_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
-   <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_MONO"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
@@ -622,10 +342,6 @@
    <input node="Beats Solo 4" port="Beats Solo 4:playback_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Firefox Developer Edition" port="Firefox Developer Edition:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:System L"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Dune: Awakening-2" port="Dune: Awakening:output_FL"/>
    <input node="jack_mixer" port="jack_mixer:Game L"/>
   </item>
@@ -634,20 +350,28 @@
    <input node="jack_mixer" port="jack_mixer:Game R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Dune: Awakening-1" port="Dune: Awakening:output_FL"/>
-   <input node="jack_mixer" port="jack_mixer:Game L"/>
+   <output node="Firefox Developer Edition" port="Firefox Developer Edition:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:System L"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="jack_mixer" port="jack_mixer:Audio L"/>
+   <output node="Pal-1" port="Pal:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
+   <input node="Billy’s AirPods Pro - Find My" port="Billy’s AirPods Pro - Find My:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Google Chrome-1" port="Google Chrome:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:System R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
+   <input node="Chromium input" port="Chromium input:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
    <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_MONO"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-2" port="Chromium:output_MONO"/>
-   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FR"/>
-   <input node="jack_mixer" port="jack_mixer:Comms R"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Chromium-3" port="Chromium:output_MONO"/>
@@ -664,6 +388,314 @@
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Audio Adapter (Unitek Y-247A) Mono" port="USB Audio Device:capture_MONO"/>
    <input node="Voice Detection" port="Voice Detection:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio L"/>
+   <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Dune: Awakening-1" port="Dune: Awakening:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-2" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Comms R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:System Out L"/>
+   <input node="discord_capture-1" port="discord_capture:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Music L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio L"/>
+   <input node="Wingman" port="Wingman:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
+   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
+   <input node="Beats Solo 4" port="Beats Solo 4:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="NoiseTorch Microphone for Audio Adapter (Unitek Y-247A) Source" port="NoiseTorch Microphone for Audio Adapter (Unitek Y-247A) Source:capture_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Mic In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
+   <input node="Billy’s AirPods Pro" port="Billy’s AirPods Pro:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="CotWTheAngler_Steam.exe" port="CotWTheAngler_Steam.exe:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Audio Adapter (Unitek Y-247A) Mono" port="USB Audio Device:capture_MONO"/>
+   <input node="NoiseTorch Microphone for Audio Adapter (Unitek Y-247A) Source" port="NoiseTorch Microphone for Audio Adapter (Unitek Y-247A) Source:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="NoiseTorch Microphone for Audio Adapter (Unitek Y-247A) Source" port="NoiseTorch Microphone for Audio Adapter (Unitek Y-247A) Source:capture_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Mic In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
+   <input node="Chromium input" port="Chromium input:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Unreal Engine-1" port="Unreal Engine:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Tom Clancy's The Division 2" port="Tom Clancy's The Division 2:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:System L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Pal" port="Pal:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat R"/>
+   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Tom Clancy's The Division 2" port="Tom Clancy's The Division 2:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:capture_MONO"/>
+   <input node="Voice Detection" port="Voice Detection:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Dune: Awakening" port="Dune: Awakening:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Terraria.bin.x86_64-1" port="Terraria.bin.x86_64:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
+   <input node="Beats Solo 4" port="Beats Solo 4:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
+   <input node="Billy’s AirPods Pro" port="Billy’s AirPods Pro:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Terraria.bin.x86_64-1" port="Terraria.bin.x86_64:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:System R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Terraria.bin.x86_64" port="Terraria.bin.x86_64:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Pal-1" port="Pal:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:System Out R"/>
+   <input node="discord_capture-1" port="discord_capture:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat In Out R"/>
+   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-8" port="Chromium:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
+   <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Dune: Awakening-1" port="Dune: Awakening:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:capture_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Mic"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="CotWTheAngler_Steam.exe" port="CotWTheAngler_Steam.exe:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Fallout 76" port="Fallout 76:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Unreal Engine-1" port="Unreal Engine:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox Developer Edition" port="Firefox Developer Edition:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:System R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio L"/>
+   <input node="Otium audio" port="Otium audio:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-6" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Tom Clancy's The Division 2-1" port="Tom Clancy's The Division 2:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Music R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="FMOD Ex App" port="FMOD Ex App:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:System Out L"/>
+   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Google Chrome" port="Google Chrome:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:System R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio R"/>
+   <input node="Billy’s AirPods Pro-1" port="Billy’s AirPods Pro:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
+   <input node="Chromium input-1" port="Chromium input:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="FactoryGameSteam-1" port="FactoryGameSteam:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:System L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat L"/>
+   <input node="Arctis Pro Wireless Chat" port="Arctis Pro Wireless:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out R"/>
+   <input node="Billy’s AirPods Pro-1" port="Billy’s AirPods Pro:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Dune: Awakening-2" port="Dune: Awakening:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
+   <input node="LE-Beats Solo 4" port="LE-Beats Solo 4:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Chat Out L"/>
+   <input node="Billy’s AirPods Pro - Find My" port="Billy’s AirPods Pro - Find My:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-1" port="Chromium:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Google Chrome-1" port="Google Chrome:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:System R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Mumble/Playback" port="Playback:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:System Out R"/>
+   <input node="Arctis Pro Wireless Game" port="USB Audio #1:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
+   <input node="Chromium input" port="Chromium input:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out L"/>
+   <input node="Chromium input-1" port="Chromium input:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Unreal Engine" port="Unreal Engine:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Game R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Ranch Simulator" port="Ranch Simulator:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Mic Out R"/>
+   <input node="RoadCraft" port="RoadCraft:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio L"/>
+   <input node="Billy’s AirPods Pro-1" port="Billy’s AirPods Pro:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-6" port="Chromium:output_MONO"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Red Dead Redemption 2" port="Red Dead Redemption 2:output_FL"/>
+   <input node="jack_mixer" port="jack_mixer:Game L"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="DGM20 USB Microphone Analog Stereo" port="DGM20 USB Microphone:capture_FL"/>
+   <input node="Voice Detection" port="Voice Detection:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="jack_mixer" port="jack_mixer:Audio R"/>
+   <input node="Wingman" port="Wingman:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Mumble/Playback" port="Playback:output_FR"/>
+   <input node="jack_mixer" port="jack_mixer:Chat In R"/>
   </item>
  </items>
 </patchbay>
